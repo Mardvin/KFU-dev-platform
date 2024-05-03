@@ -1,0 +1,26 @@
+.nav-link:active {
+    transform: scale(0.95); /* Уменьшение кнопки при нажатии для создания эффекта нажатия */
+    opacity: 0.75; /* Снижение прозрачности при нажатии */
+}
+
+.tasks-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Добавляем отступ сверху для таблицы */
+}
+
+.tasks-table th, .tasks-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px; /* Увеличиваем размер шрифта */
+}
+
+.tasks-table th {
+    background-color: #f4f4f4;
+    color: #181616; /* Чёрный цвет текста для заголовков */
+}
+
+.tasks-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
