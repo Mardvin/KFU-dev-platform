@@ -1,7 +1,6 @@
 Make virtual environment:
 
     pyenv virtualenv 3.10 kfu-dev-platform
-    pyenv local backend-tests
 
 Install requirements:
 
